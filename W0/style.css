@@ -1,0 +1,117 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:blue;
+    width: 100%;
+    height: 1500px;
+    font-family: sans-serif;
+}
+.boxTop {
+    background-color: indianred;
+    display: block;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+.father{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+
+}
+.boxLeft {
+    background-color: skyblue;
+    width: 70%;
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+}
+.boxRight {
+    background-color: yellow;
+    position: static;
+    border: 5px solid grey ;
+    width: 30%;
+}
+.boxCenter {
+    background-color: indianred;
+    position: fixed;
+}
+  
+
+
+/*h1{
+    color: green;
+}
+body,html{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color: aliceblue;
+}
+input[type="submit"]{
+    background-color: red;
+}
+.container{
+    display: flex;
+}
+.container > .box{
+    background-color: blue;
+  
+}
+.box{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 1px solid yellow;
+    transition: all 1s ease-in-out;
+    color:white;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    animation: 3s identifier infinite ease-in-out;
+    
+}
+.box:nth-child(3n){
+    background-color: pink;
+}
+.box:hover{
+    background-color: lightgray;
+    color: pink;
+    transform: rotate(3turn);
+    transform: skew(15deg, 30deg);
+}
+.box:active{
+    background-color: purple;
+    color: gold;
+}
+.box:focus{
+    background-color: brown;
+}
+
+@keyframes identifier{
+    0%{
+        transform:none;
+    }
+    30%{
+        transform:rotate(1turn) scale(.5, .5);
+        color: greenyellow;
+        background-color:orangered;
+    }
+    100%{
+        transform:none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:640px){
+   body{ background-color: aqua;
+   }
+}
+*/
