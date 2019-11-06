@@ -1,0 +1,125 @@
+.sign-in .sign-in__title{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    margin: 0px 0px 30px 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sign-in__input .sign-in__email,
+.sign-in__input .sign-in__password{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding:10px; 
+    margin: 15px 0;
+    border: 1px solid #F3F3F3;
+}
+
+.sign-in__input .input-text{
+    width: 30%;
+}
+
+.sign-in__forgot-password{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.sign-in__remember-me {
+    margin-bottom: 30px;
+}
+
+.sign-in__remember-me .check-box{
+    margin-right: 5px;
+}
+
+.sign-in.button{
+    width: 100%;
+}
+
+.button .button__sign-in{
+    background-color: #E3293E;
+}
+
+.button .button__or{
+    font-weight: 700;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.button .button__sign-in,
+.button .button-social,
+.button .button__or{
+    width: 100%;
+    height: 35px;
+    border-radius: 17px;
+    margin: 15px 0px;
+
+}
+
+.button-social{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.button-social .button-social__facebook,
+.button-social .button-social__twitter{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+.button-social .button-social__facebook{
+    margin-right: 5px;
+    background-color: #475A95;
+}
+
+.button-social .button-social__twitter{
+    margin-left: 5px;
+    background-color: #5DA1F2;
+}
+
+.footer .footer__sign-up,
+.footer .footer__retrieve{
+    display: flex;
+    height: 17px;
+}
+
+.sign-in__title,
+.button .button__sign-in,
+.button-social .button-social__facebook,
+.button-social .button-social__twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in__forgot-password,
+.footer .footer__link{
+    color: #E3293E;
+}
+
+.sign-in__input .input-text,
+.sign-in__remember-me,
+.footer .footer__question{
+    color: #B8B7B8;
+    margin-right: 5px;
+}
+
+.button .button__sign-in,
+.button-social .button-social__facebook,
+.button-social .button-social__twitter{
+    color: #FFFFFF;
+}
+
+.sign-in__forgot-password,
+.button{
+    font-size: 9px;
+}
