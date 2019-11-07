@@ -1,0 +1,146 @@
+.screen{
+    width: 380px;
+    height: 830px;
+    border-radius: 40px;
+    background-color: #F8F8F8;
+    margin: 50px;
+    padding: 20px 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0), #F2F3F6 50%),
+    url("image/001.jpg") no-repeat bottom;
+    background-size: 500%;
+    position: relative;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 180px 0px;
+    font-size: 23px;
+}
+
+
+.column__city-card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.city__card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #3E67FF;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5EAFF;
+    margin-left: 10px;
+}
+
+.column__tag{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.city__tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8DEF7;
+    font-size: 11px;
+    color: #3E67FF;
+    font-weight: 700;
+    padding: 8px 15px; 
+    margin-right: 10px;
+    border-radius: 15px 15px 15px 0px; 
+}
+
+.column__city-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.column__city-title .city-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.column__city-title i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #FF2339;
+}
+
+.column__city-location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.column__city-location .city-location{
+    font-size: 15px;
+}
+
+.column__city-location i{
+    color: #3E67FF;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.column__city-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.column__city-rating .city-rating__stars{
+    display: flex;
+}
+
+.city-rating__number{
+    margin-left: 8px;
+}
+
+.column__city-rating i{
+    margin-right: 4px;
+    color: #FFBC00;
+}
+
+.column__city-location .city-location,
+.city-rating__distance,
+.overview__title{
+    opacity: 0.4;
+}
+
+.overview__title{
+    font-size: 12px;
+}
+
+.overview__text{
+    font-size: 15px;
+    height: 80px;
+    margin: 8px 0 20px 0;
+    color: #597098;
+}
+
+.overview__read-more{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3E67FF;
+}

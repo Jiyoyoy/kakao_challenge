@@ -1,0 +1,19 @@
+.status-bar {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.status-bar i{
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.status-bar .fa-signal{
+    font-size: 12px;
+}
+
+.status-bar .fa-battery-full{
+    font-size: 17px;
+}

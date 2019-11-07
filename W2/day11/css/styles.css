@@ -1,0 +1,30 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import "index.css";
+@import "status-bar.css";
+@import "nav-bar.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    background-color: #E8E7EC;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 180%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+
